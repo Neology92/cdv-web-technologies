@@ -1,0 +1,84 @@
+body {
+  background-color: #feebe4;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+main {
+  margin: 50px auto;
+  padding: 50px;
+  width: 900px;
+  background: white;
+  display: flex;
+}
+
+.col {
+  width: 50%;
+  padding: 0 40px;
+}
+
+.col__left section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col__right section {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #3e3e3e;
+  margin: 0 auto;
+  font-size: 34px;
+}
+
+.career {
+  text-align: center;
+  font-style: italic;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.photo {
+  width: 60%;
+  margin: 30px auto 10px;
+  border-radius: 100%;
+  filter: grayscale(1);
+}
+
+.heading {
+  width: 76%;
+  border: 1px solid #3e3e3e;
+  padding: 10px;
+  margin: 40px auto 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #3e3e3e;
+  font-size: 21px;
+}
+
+.heading--leftalign {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.col section:first-child .heading {
+  margin-top: 20px;
+}
+
+p {
+  text-align: left;
+  font-style: italic;
+  font-family: "Cormorant Upright", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
